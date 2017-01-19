@@ -9,12 +9,14 @@ import java.io.Serializable;
 import java.util.List;
 import javax.persistence.Entity;
 import javax.persistence.Id;
+import javax.xml.bind.annotation.XmlRootElement;
 
 /**
  *
  * @author Mohammad
  */
 @Entity
+@XmlRootElement
 class Devices implements Serializable {
     @Id
     private String _id;

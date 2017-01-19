@@ -8,6 +8,7 @@ package com.sorena.writer.entity;
 import java.util.Date;
 import javax.persistence.Entity;
 import javax.persistence.Id;
+import javax.xml.bind.annotation.XmlRootElement;
 
 /**
  *
@@ -15,6 +16,7 @@ import javax.persistence.Id;
  * @param this class for notification.
  */
 @Entity
+@XmlRootElement
 class Notification {
     @Id
     private String _id;

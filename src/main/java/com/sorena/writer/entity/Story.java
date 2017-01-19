@@ -10,6 +10,7 @@ import java.util.Date;
 import java.util.List;
 import javax.persistence.Entity;
 import javax.persistence.Id;
+import javax.xml.bind.annotation.XmlRootElement;
 
 /**
  *
@@ -17,6 +18,7 @@ import javax.persistence.Id;
  * @param this class for stories details.
  */
 @Entity
+@XmlRootElement
 public class Story implements Serializable {
 
     @Id

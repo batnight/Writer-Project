@@ -13,8 +13,10 @@ package com.sorena.writer.entity;
 import java.util.List;
 import javax.persistence.Entity;
 import javax.persistence.Id;
+import javax.xml.bind.annotation.XmlRootElement;
 
 @Entity
+@XmlRootElement
 class Section {
 
     @Id

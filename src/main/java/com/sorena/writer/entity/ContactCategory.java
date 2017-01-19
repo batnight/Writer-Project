@@ -8,12 +8,14 @@ package com.sorena.writer.entity;
 import java.util.List;
 import javax.persistence.Entity;
 import javax.persistence.Id;
+import javax.xml.bind.annotation.XmlRootElement;
 
 /**
  *
  * @author Mohammad
  */
 @Entity
+@XmlRootElement
 class ContactCategory {
     @Id
     private String _id;

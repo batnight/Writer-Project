@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.sorena.writer.business.configuration;
+package com.sorena.writer.service.configuration;
 
 import com.mongodb.MongoClient;
 import com.sorena.writer.utility.defines.Urls;
