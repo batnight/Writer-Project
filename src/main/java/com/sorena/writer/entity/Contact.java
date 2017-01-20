@@ -14,8 +14,7 @@ import javax.xml.bind.annotation.XmlRootElement;
  * @author Mohammad
  */
 @Entity
-@XmlRootElement
-class Contact {
+public class Contact {
     @Id
     private String _id;
     private String title;
